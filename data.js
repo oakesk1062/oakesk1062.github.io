@@ -7,7 +7,7 @@ const roboticsKits = [
         id: 'dofbot',
         name: 'DOFBOT-JetsonNANO',
         description: 'The DOFBOT robotic arm utilizes the NVIDIA Jetson Nano platform. Students in Robotics 1 use this platform to explore fundamental robotics concepts through Python programming. In addition to the powerful Jetson platform, the arms are also equipped with a two finger gripper and RGB camera.',
-        image: 'Images/index/dofbot.jpg',
+        image: 'images/index/dofbot.jpg',
         difficulty: 'Manipulator, Kinematics & Dynamics',
         tags: ['NVIDIA Jetson Nano', 'Python', 'ROS1', 'Visual Servoing'],
         sections: [
