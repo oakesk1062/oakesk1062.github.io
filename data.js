@@ -1112,7 +1112,7 @@ for i in range(0, height-2):
         id: 'rosmaster',
         name: 'ROSMASTER X3',
         description: 'The Rosmaster X3 is an advanced mobile robot with ROS (Robot Operating System). This repository contains setup instructions, control code, and sensor integration examples for using the Rosmaster X3 with various programming environments. Students can learn SLAM (Simultaneous Localization and Mapping), exploring autonomous navigation, and working with sensors like LIDAR and cameras.',
-        image: 'images/index/rosmaster.jpg',
+        image: './Images/index/rosmaster.jpg',
         difficulty: 'Intro to Robot Programming',
         tags: ['ROS2 Foxy', 'NVIDIA Jetson Nano', 'LIDAR', "RGB-D Camera"],
         sections: [
@@ -1209,7 +1209,7 @@ for i in range(0, height-2):
         id: 'raspbot',
         name: 'Raspbot V2',
         description: 'The Raspbot V2 is a beginner-friendly robot car that runs on the Raspberry Pi. This repository includes code and documentation for setting up the Raspbot, controlling its movement, and incorporating basic computer vision features. This repo teaches students motor control, obstacle avoidance, and basic computer vision using Python.',
-        image: 'images/index/raspbot.jpg',
+        image: './Images/index/raspbot.jpg',
         difficulty: 'Robotics 2',
         tags: ['Raspberry Pi 5', 'ROS2 Humble', 'Ultrasonic', 'Articulated Camera'],
         sections: [
