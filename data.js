@@ -58,7 +58,7 @@ const roboticsKits = [
                         <strong>Note: When the robot arm is gripping objects, it is necessary to control the angle of the gripper. Improper angle setting may cause the servo to stall and burn.</strong>
                     </div>
                     <p>Here is a table of gripper angles, which records the angle that the servo needs to be set to for every 0.5 cm object. You can adjust the angle you set when gripping according to this table to avoid stalling the servo.</p>
-                    <img src="images/Dofbot/First_Trial/First_Trial_1.png" alt="Showing the Object length from the gripper." style="max-width:100%;border-radius:.5rem;margin:.75rem 0;">
+                    <img src="./images/Dofbot/First_Trial/First_Trial_1.png" alt="Showing the Object length from the gripper." style="max-width:100%;border-radius:.5rem;margin:.75rem 0;">
                     <table class="doc-table">
                         <thead><tr><th>Object length (unit: cm)</th><th>Servo angle (unit: degree)</th></tr></thead>
                         <tbody>
