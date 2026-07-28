@@ -153,6 +153,7 @@ const roboticsKits = [
                             <p>If you want to transplant it to your own system, you can find the <strong>Dofbot.tar.gz</strong> compressed package in the program source code summary folder, and then remotely transfer it to the Raspberry Pi system through winscp software.</p>
                             <p>Enter the following command to decompress the firmware package:</p>
                             <pre><code>tar -vxzf Dofbot.tar.gz</code></pre>
+                            <code>tar -vxzf Dofbot.tar.gz</code>
                             <p>After successful decompression, the following interface will appear:</p>
                             <img src="images/Dofbot/Basic_Control_Course/Control_RGB_Light_1.png" alt="terminal" style="max-width:100%;border-radius:.5rem;margin:.75rem 0;">
                             <p>Then install it into the system through the following command:</p>
