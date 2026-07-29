@@ -171,7 +171,7 @@ const roboticsKits = [
                             <p><strong>Return Value:</strong> None</p>
                             <h3>2. Code content</h3>
                             <p>Code path: <code>/home/jetson/Dofbot/3.ctrl_Arm/1.rgb.ipynb</code></p>
-                            <code># Cycle through the RGB lights on the robot arm expansion board to illuminate red, green, and blue.
+                            <pre><code># Cycle through the RGB lights on the robot arm expansion board to illuminate red, green, and blue.
 #!/usr/bin/env python3
 #coding=utf-8
 import time
@@ -194,7 +194,7 @@ except KeyboardInterrupt:
     # Release the Arm object
     del Arm
     print(" Program closed! ")
-    pass</code>
+    pass</code></pre>
                             <p>Open the 1.rgb.ipynb file from jupyter lab, and click the "Run" entire notebook button on the jupyter lab toolbar. You can see that the RGB light on the robot arm expansion board lights up red, green, and blue lights in a cycle every 0.5 seconds.</p>
                             <img src="images/Dofbot/Basic_Control_Course/Control_RGB_Light_3.png" alt="board light up in RGB" style="max-width:100%;border-radius:.5rem;margin:.75rem 0;">
                             <p>If you want to quit, click the Stop button on the toolbar.</p>
