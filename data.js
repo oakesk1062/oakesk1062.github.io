@@ -152,7 +152,6 @@ const roboticsKits = [
                             <p>The underlying driver source code has been packaged into a python library, and the underlying driver firmware has been installed in the system image provided by Yahboom.</p>
                             <p>If you want to transplant it to your own system, you can find the <strong>Dofbot.tar.gz</strong> compressed package in the program source code summary folder, and then remotely transfer it to the Raspberry Pi system through winscp software.</p>
                             <p>Enter the following command to decompress the firmware package:</p>
-                            <pre><code>tar -vxzf Dofbot.tar.gz</code></pre>
                             <code>tar -vxzf Dofbot.tar.gz</code>
                             <p>After successful decompression, the following interface will appear:</p>
                             <img src="images/Dofbot/Basic_Control_Course/Control_RGB_Light_1.png" alt="terminal" style="max-width:100%;border-radius:.5rem;margin:.75rem 0;">
@@ -172,7 +171,7 @@ const roboticsKits = [
                             <p><strong>Return Value:</strong> None</p>
                             <h3>2. Code content</h3>
                             <p>Code path: <code>/home/jetson/Dofbot/3.ctrl_Arm/1.rgb.ipynb</code></p>
-                            <pre><code># Cycle through the RGB lights on the robot arm expansion board to illuminate red, green, and blue.
+                            <code># Cycle through the RGB lights on the robot arm expansion board to illuminate red, green, and blue.
 #!/usr/bin/env python3
 #coding=utf-8
 import time
@@ -195,7 +194,7 @@ except KeyboardInterrupt:
     # Release the Arm object
     del Arm
     print(" Program closed! ")
-    pass</code></pre>
+    pass</code>
                             <p>Open the 1.rgb.ipynb file from jupyter lab, and click the "Run" entire notebook button on the jupyter lab toolbar. You can see that the RGB light on the robot arm expansion board lights up red, green, and blue lights in a cycle every 0.5 seconds.</p>
                             <img src="images/Dofbot/Basic_Control_Course/Control_RGB_Light_3.png" alt="board light up in RGB" style="max-width:100%;border-radius:.5rem;margin:.75rem 0;">
                             <p>If you want to quit, click the Stop button on the toolbar.</p>
